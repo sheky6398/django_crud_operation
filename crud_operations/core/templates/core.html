@@ -1,0 +1,29 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% block corecss %}
+        <link href="{% static 'css/bootstrap.css'  %}" rel="stylesheet" />
+    {% endblock corecss %}
+
+    {% block coretitle %}
+        <title>Home</title>
+    {% endblock coretitle %}
+
+  </head>
+
+  {% block corebodycontent %}
+    <body>
+    </body>
+  {% endblock corebodycontent %}
+
+  {% block corejs %}
+    <scrip src="{% static 'js/popper.js' %}"/>
+    <scrip src="{% static 'js/bootstrap.js' %}"/>
+    <scrip src="{% static 'js/jquery.js' %}"/>
+  {% endblock corejs %}
+
+</html>

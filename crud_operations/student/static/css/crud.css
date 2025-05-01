@@ -1,0 +1,49 @@
+.main_heading {
+    background: antiquewhite;
+    padding: 2rem;
+    font-size: 3rem;
+    color: #c56f00;
+    display: flex;
+    justify-content: center;
+}
+
+.main_student_section {
+    gap: 6rem;
+
+    .new_student_section {
+        width: 35%;
+
+        h1 {
+            padding: 1rem;
+            background: lightskyblue;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+    .student_info_section {
+        width: 65%;
+
+        h1 {
+            padding: 1rem;
+            background: lightskyblue;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.student_update_main_section {
+    .student_update_section {
+        width: 70%;
+
+        h1 {
+            padding: 1rem;
+            background: lightskyblue;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
